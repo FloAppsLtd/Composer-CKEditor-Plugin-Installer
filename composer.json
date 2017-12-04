@@ -1,0 +1,27 @@
+{
+    "name": "floapps/ckeditor-installer-plugin",
+    "description": "Installer for unofficial CKEditor plugins",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+	    {
+			"name": "Hermanni Piirainen",
+			"email": "hermanni.piirainen@floapps.com",
+			"role": "Developer"
+	    }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"FloApps\\Composer\\": "src"}
+    },
+    "extra": {
+        "class": "FloApps\\Composer\\CKEditorInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0",
+        "ckeditor/ckeditor": "^4.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.3"
+    }
+}
