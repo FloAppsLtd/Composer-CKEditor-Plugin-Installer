@@ -10,7 +10,7 @@ Install CKEditor plugins when CKEditor itself is installed with Composer
 "repositories": [
 {
 	"type": "git",
-	"url": "https://bitbucket.org/floappsltd/composer-ckeditor-plugin-installer.git"
+	"url": "https://github.com/FloAppsLtd/Composer-CKEditor-Plugin-Installer.git"
 }
 ```
 
