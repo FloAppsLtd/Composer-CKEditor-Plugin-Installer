@@ -1,5 +1,6 @@
 {
     "name": "floapps/ckeditor-installer-plugin",
+    "keywords": ["CKEditor", "composer-installer"],
     "description": "Installer for unofficial CKEditor plugins",
     "type": "composer-plugin",
     "license": "MIT",
